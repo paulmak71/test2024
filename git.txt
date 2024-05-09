@@ -1,0 +1,56 @@
+D:\git>git ls-tree --name-only main
+README
+
+D:\git>git ls-files
+README
+
+D:\git>git remote add origin https://github.com/paulmak71/test2024.git
+
+D:\git>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 222 bytes | 111.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/paulmak71/test2024.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+==============
+D:\git>git add pythonNotes2023.txt
+
+D:\git>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   pythonNotes2023.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+
+
+D:\git>git commit -m "add pythonNotes2023.txt"
+[main fb2b88b] add pythonNotes2023.txt
+ 1 file changed, 48 insertions(+)
+ create mode 100644 pythonNotes2023.txt
+
+D:\git>git push -u origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 813 bytes | 406.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/paulmak71/test2024.git
+   c5aa5da..fb2b88b  main -> main
+branch 'main' set up to track 'origin/main'.
+
+D:\git>
+
+
+
+
+
